@@ -1,0 +1,73 @@
+<html>
+        <head>
+			<meta charset="utf-8">
+            <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">          
+            
+            <!-- jQuery -->
+            <script src="js/jquery.min.js" type="text/javascript"></script>
+          
+            <!-- nanogallery2 -->
+            <link  href="nanogallery2-2.4.2/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
+            <script  type="text/javascript" src="nanogallery2-2.4.2/dist/jquery.nanogallery2.min.js"></script>
+        </head>
+        <body>
+        
+
+
+              <!-- ### start of the gallery definition ### -->
+<div id="nanogallery2"></div>
+            
+              <script>
+                 jQuery(document).ready(function () {
+
+                    jQuery("#nanogallery2").nanogallery2( {
+                        // ### gallery settings ### 
+                        thumbnailWidth:   300,
+                        itemsBaseURL:     'https://gallery-1255498277.cos.ap-shanghai.myqcloud.com/gallery/',
+						thumbnailHeight: "auto",
+						thumbnailAlignment: "center",
+						"thumbnailLabel": {
+						"display": false
+						},
+						"thumbnailBorderVertical": 0,
+						"thumbnailBorderHorizontal": 0,
+                        
+                        // ### gallery content ### 
+                        items: [
+                            { src: '20170804_191537.jpg', srct: 'tn_20170804_191537.jpg', title: 'Beijing' },
+                         //   { src: '20170804_192414.jpg', srct: '20170804_192414.jpg', title: 'BNHS Sunset' },
+                            { src: 'IMG_20190606_182700.jpg', srct: 'tn_IMG_20190606_182700.jpg', title: 'Suzhou' },
+                            { src: '20170827_223244.jpg', srct: 'tn_20170827_223244.jpg', title: 'Wuxi' },
+                        //    { src: 'IMG_20190607_104451.jpg', srct: 'IMG_20190607_104451.jpg', title: 'Suzhou' },
+                            { src: '20171023_172304.jpg', srct: 'tn_20171023_172304.jpg', title: 'Wuxi' },
+                            { src: 'PANO_20190601_162357.jpg', srct: 'tn_PANO_20190601_162357.jpg', title: 'Suzhou' },
+                            { src: 'IMG_20181130_141236.jpg', srct: 'tn_IMG_20181130_141236.jpg', title: 'Hong Kong' },
+                            { src: '45600420_2313217148911601_6650820032105140980_n.jpg', srct: 'tn_45600420_2313217148911601_6650820032105140980_n.jpg', title: 'Wuxi' },
+                            { src: 'IMG_20181206_173515.jpg', srct: 'tn_IMG_20181206_173515.jpg', title: 'Wuxi' },
+                            { src: '20171208_172602.jpg', srct: 'tn_20171208_172602.jpg', title: 'Wuxi' },
+                            { src: 'IMG_20181130_174436.jpg', srct: 'tn_IMG_20181130_174436.jpg', title: 'Hong Kong' },
+                            { src: 'IMG_20190204_145640.jpg', srct: 'tn_IMG_20190204_145640.jpg', title: 'Wuxi' },
+                            { src: '20170913_182301.jpg', srct: 'tn_20170913_182301.jpg', title: 'Wuxi' },
+                            { src: '20181006_175102.jpg', srct: 'tn_20181006_175102.jpg', title: 'Hong Kong' },
+                        //    { src: 'IMG_20190607_103624.jpg', srct: 'IMG_20190607_103624.jpg', title: 'Hong Kong' },
+                            { src: 'IMG_20190127_171556.jpg', srct: 'tn_IMG_20190127_171556.jpg', title: 'Hong Kong' },
+                            { src: 'IMG_20190607_103305.jpg', srct: 'tn_IMG_20190607_103305.jpg', title: 'Suzhou' },
+                            { src: 'IMG_20190401_233353.jpg', srct: 'tn_IMG_20190401_233353.jpg', title: 'Wuxi' },
+                            { src: 'IMG_20190413_220118.jpg', srct: 'tn_IMG_20190413_220118.jpg', title: 'Wuxi' },
+                            { src: 'IMG_20181130_192022.jpg', srct: 'tn_IMG_20181130_192022.jpg', title: 'Hong Kong' },
+                            { src: '20180822_093957.jpg', srct: 'tn_20180822_093957.jpg', title: 'Shanghai' },
+                            { src: '20181005_175723.jpg', srct: 'tn_20181005_175723.jpg', title: 'Hong Kong' },
+                        //    { src: '20181006_214228.jpg', srct: '20181006_214228.jpg', title: 'Hong Kong' },
+                            { src: 'IMG_20190326_180300.jpg', srct: 'tn_IMG_20190326_180300.jpg', title: 'Wuxi' },
+                            { src: 'IMG_20190602_192137.jpg', srct: 'tn_IMG_20190602_192137.jpg', title: 'Wuxi' },
+                            { src: 'IMG_20190112_194200.jpg', srct: 'tn_IMG_20190112_194200.jpg', title: 'Nanjing' },
+                            { src: 'IMG_20190524_180831.jpg', srct: 'tn_IMG_20190524_180831.jpg', title: 'Shanghai' },
+                            { src: '20180808_185259.jpg', srct: 'tn_20180808_185259.jpg', title: 'Beijing' }
+                          ]
+                      });
+                  });
+              </script>
+              <!-- ### end of the gallery definition ### -->
+            
+          </body>
+      </html>
